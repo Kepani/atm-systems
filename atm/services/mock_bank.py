@@ -12,3 +12,5 @@ class MockBankService:
             card_id in self.accounts
             and self.accounts[card_id]["pin"] == pin
         )
+
+print("MockBankService Loaded")
