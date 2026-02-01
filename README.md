@@ -16,21 +16,6 @@ This project is designed as a **learning + interview-ready system design project
 
 ---
 
-## Project Structure
-atm-system/
-├── atm/
-│ ├── atm.py # ATM controller
-│ ├── session.py # User session tracking
-│ ├── states.py # ATM state machine
-│ ├── services/
-│ │ └── mock_bank.py # Mock bank backend
-│ ├── transactions/ # Transaction logic (WIP)
-│ └── hardware/ # ATM hardware simulation (WIP)
-├── tests/
-├── main.py # Entry point
-├── requirements.txt
-└── README.md
-
 ## Planned Features
 - Withdraw / Deposit transactions
 - Transaction factory & strategy pattern
